@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIT -  Consumo de APIs</title>
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <h1>Consumo de APIs com JavaScript</h1>
+        <a href="https://github.com/seu-repositorio" target="_blank">
+            <i class="fab fa-github github-icon" title="Veja o código no GitHub"></i>
+        </a>
+    </header>
+
+    <main>
+        <!-- Seção 1: BrasilAPI -->
+        <section id="brasilapi">
+            <h2>Consulta à BrasilAPI
+                <a href="https://brasilapi.com.br/" target="_blank" class="api-link">Visite a BrasilAPI</a>
+            </h2>
+            <div id="consulta-programada">
+                <h3>Consultas Programadas</h3>
+                <div id="consulta1">
+                    <p>CEP</p>
+                </div>
+                <div id="consulta2">
+                    <p>Feriados - 2024</p>
+                </div>
+            </div>
+            <div id="consulta-form">
+                <h3>Consultas Personalizadas
+                    <i class="fa-solid fa-trash" id="limpar-resposta-ddd" title="Limpar a resposta da consulta DDD"></i>
+                </h3>
+                <form id="consulta-formulario">
+                    <label for="ddd">Digite um DDD para buscar informações:</label>
+                    <input type="text" id="ddd" name="ddd" placeholder="Digite o DDD">
+                    <button type="submit">Consultar</button>
+                </form>
+                <div id="resultado-ddd"></div>
+                <h3>Consulta por CNPJ
+                    <i class="fa-solid fa-trash" id="limpar-resposta-cnpj" title="Limpar a resposta da consulta CNPJ"></i>
+                </h3>
+                <form id="cnpj-form">
+                    <label for="cnpj-input">Digite um CNPJ para buscar informações:</label>
+                    <input type="text" id="cnpj-input" placeholder="Digite o CNPJ" required>
+                    <button type="submit">Consultar</button>
+                </form>
+                <div id="resultado-cnpj"></div>
+            </div>
+        </section>
+
+        <!-- Seção 2: Outras APIs -->
+        <section id="outras-apis">
+            <h2>Consumo de Outras APIs</h2>
+            <div id="promise-race">
+                <h3>Promise.race
+                    <i class="fa-solid fa-trash" id="limpar-race" title="Limpar a resposta da consulta Promise.race"></i>
+                </h3>
+                <button id="btn-race">Executar Promise.race</button>
+                <div id="resultado-race"></div>
+            </div>
+
+            <div id="promise-all">
+                <h3>Promise.all
+                    <i class="fa-solid fa-trash" id="limpar-all" title="Limpar a resposta da consulta Promise.all"></i>
+                </h3>
+                <button id="btn-all">Executar Promise.all</button>
+                <div id="resultado-all"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="public/assets/js/main.js"></script>
+</body>
+
+</html>
