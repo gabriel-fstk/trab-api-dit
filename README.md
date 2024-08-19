@@ -64,7 +64,7 @@ Para mais informações, você pode entrar em contato:
 - **Nome do Autor**: [Gabriel Garcia C. Soares]
 - **Email**: [gabriel.soares@aluno.riogrande.ifrs.edu.br]
 - **GitHub (IFRS)**: [https://github.com/gabriel-fstk](https://github.com/gabriel-fstk)
-- **GitHub **: [https://github.com/gsoaresz](https://github.com/gsoaresz)
+- **GitHub (Pessoal)**: [https://github.com/gsoaresz](https://github.com/gsoaresz)
 
 ## Licença
 
