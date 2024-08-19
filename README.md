@@ -1,6 +1,6 @@
 # Consumo de APIs com JavaScript
 
-Este repositório contém uma página HTML, JavaScript e CSS que faz parte de um trabalho/exercício do 3º semestre do curso de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) da disciplina de Desenvolvimento de Interfaces e Tecnologias (DIT). O objetivo principal é demonstrar o consumo de APIs utilizando JavaScript, abordando conceitos como fetch, Promises, tratamento de erros e manipulação de DOM.
+Este repositório contém uma página HTML, JavaScript e CSS que faz parte de um trabalho/exercício do 3º semestre do curso de Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) da disciplina de Design de Interação (DIT). O objetivo principal é demonstrar o consumo de APIs utilizando JavaScript, abordando conceitos como fetch, Promises, tratamento de erros e manipulação de DOM.
 
 ## Descrição
 
